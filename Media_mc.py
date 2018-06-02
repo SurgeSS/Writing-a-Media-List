@@ -2,6 +2,7 @@ import Media_modifier
 import Media_searcher
 import Media_updater
 import Media_writer
+import time
 
 print("THE CAPITALIZED WORDS ARE THE POSSIBLE REPLIES")
 time.sleep(2)
