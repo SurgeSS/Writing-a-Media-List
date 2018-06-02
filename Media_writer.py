@@ -1,8 +1,10 @@
 def M_write():
     import openpyxl
+    from openpyxl import Workbook
 
-    dest_filename = input("What is the name of this new list? ")
-    wb = openpyxl.load_workbook(dest_filename)
+    D_F_IN = input("What is the name of this new list? ")
+    dest_filename = D_F_IN + ".xlsx"
+    wb = Workbook()
 
     #dest_filename = 'Media_List_Writer.xlsx'
 
