@@ -14,8 +14,6 @@ else:
     FileIn = input("What is the name of you list file with out the file extension? ")
     dest_filename = FileIn + ".xlsx"
 
-    print("If this is the first time you are running this program replay with the next question with 'WRITE'")
-    time.sleep(5)
     ExeIn = input("Would you like to ADD a show, SEARCH based on status, UPDATE a show's status, or WRITE a new list? ")
     exe = ExeIn.lower()
 
