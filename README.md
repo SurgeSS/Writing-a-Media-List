@@ -1,4 +1,6 @@
 # Writing-a-Media-List
+NOTE: You need to install openpyxl prior to running these scripts
+
 This is a beginner project to write a list of anime and tv shows I have watched that I did to learn the basics of python
 
 This list can currently generate an excel sheet to compile anime and tv shows
